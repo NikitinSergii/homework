@@ -8,7 +8,7 @@ Feature: Desktop Checkout for Guest User
   Scenario: Proceed to checkout, final review and place order as guest user
     Given I am an anonymous customer with clear cookies
     And I open the "https://www.bookdepository.com/"
-    And I search for "Thinking in Java"
+#    And I search for "Thinking in Java"
 #    And I am redirected to a "Search page"
 #    And Search results contain the following products
 #      | Thinking in Java       |
